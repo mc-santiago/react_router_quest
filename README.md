@@ -1,3 +1,23 @@
+Wild Code School Challenge Instructions
+
+## On the route to React
+
+Following the creation of a project via the create-react-app, add two components (Home, History) in it. The navigation should be done without any reload between these two pages. There is navigation between pages with NavLink components in a navigation bar. When the current URL coincides with the link, the link must be red.
+
+The Home component displays Welcome to Home and the History component displays Our Story.
+
+The links will be:
+
+/ for the Home component
+/our-history for the History component
+The project will be available on Github.
+
+## Validation criteria
+No reload between pages
+The link of the page /our-history is red when we are on the page.
+
+-------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
