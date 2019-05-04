@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, BrowserRouter, Switch, NavLink } from 'react-router-dom';
 import Home from './Home';
-import Contact from './Contact';
+import History from './History';
 import './App.css';
 
 class App extends Component {
@@ -10,10 +10,10 @@ class App extends Component {
             <BrowserRouter className= "browser">
               <div className="navBar">
                 <NavLink exact to="/" className= "tabLike" activeClassName="selected"> Home </NavLink>
-                <NavLink to="/contact-us" className= "tabLike" activeClassName="selected"> Contact </NavLink>
+                <NavLink to="/our-story" className= "tabLike" activeClassName="selected"> History </NavLink>
                 <Switch>
                   <Route exact path="/" component={Home} />
-                  <Route path="/contact-us" component={Contact} />
+                  <Route path="/our-story" component={History} />
                 </Switch>
               </div>
             </BrowserRouter>

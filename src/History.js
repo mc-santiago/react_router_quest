@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 
-class Contact extends Component {
+class History extends Component {
     render() {
         return (
             <div>
@@ -14,4 +14,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default History;
